@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: #f3f0ff; /* light lavender */
+  color: #2d2a4a;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 760px;
+  margin: 40px 0 40px 40px;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e0d9ff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+/* TEXT */
+.quiz {
+  font-size: 12px;
+  color: #8b85c1;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #3c3570;
+}
+
+.subtitle {
+  color: #7c75b3;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #3c3570;
+}
+
+/* LINKS */
+a {
+  color: #7c3aed;
+}
+
+/* HIGHLIGHT */
+.highlight {
+  background: #ddd6fe;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* NOTE BOX */
+.note {
+  margin-top: 15px;
+  padding: 10px;
+  border-left: 4px solid #7c3aed;
+  background: #f5f3ff;
+  color: #4c1d95;
+}
+
+/* LIST */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* BADGES */
+.badge {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 2px 8px;
+  border: 1px solid #c4b5fd;
+  border-radius: 999px;
+  background: #ede9fe;
+  color: #5b21b6;
+  font-size: 0.82rem;
+}
+
+.badge.outline {
+  background: transparent;
+  border: 1px solid #a78bfa;
+  color: #6d28d9;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.primary {
+  background: #7c3aed;
+  color: white;
+}
+
+.secondary {
+  background: white;
+  border: 1px solid #7c3aed;
+  color: #7c3aed;
+}
+
+/* FORM */
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border-radius: 8px;
+  border: 1px solid #c7d2fe;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #e0e7ff;
+  text-align: left;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+/* DETAILS */
+details {
+  margin-top: 10px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* SPACING */
+details,
+p {
+  margin-top: 10px;
+}
+
+.footer {
+  color: #7c75b3;
+  padding: 10px;
+}
